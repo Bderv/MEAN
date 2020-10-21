@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fonty">
+    <h1>TEENAGE MUTANT NINJA TURTLES!!!</h1>
+    <% for (var t of turtles) { %>
+    <p>Name: <%= t.name %></p>
+    <p>Favorite Color: <%= t.favColor %></p>
+    <p>Weapon of Choice: <%= t.weapon %></p>
+    <p>Interests: <%= t.interests %></p>
+    <a href="/TMNT/<%= t._id %>">View His Page</a>
+    <% } %>
+    </div>
+</body>
+</html>

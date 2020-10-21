@@ -1,0 +1,10 @@
+body{
+    background-image: url(/images/turtles.jpg);
+}
+.fonty{
+    color: whitesmoke;
+    text-align: center;
+}
+img{
+    opacity: 50%;
+}

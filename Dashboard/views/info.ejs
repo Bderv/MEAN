@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> <%= turtle.name %>'s Page!</h1>
+    <p>Favorite Color: <%= turtle.favColor %></p>
+    <p>Weapon of Choice: <%= turtle.weapon %></p>
+    <p>Interests: <%= turtle.interests %></p>
+    <p>Updated at: <%= turtle.updatedAt %></p>
+    
+    <a href="/TMNT/edit/<%= turtle._id %>">Edit his page!</a>
+    <form action="/destroy" name="dform"></form>
+    <button type="submit" form="dform" value="Submit">DESTROY Turtle</button>
+</body>
+</html>
