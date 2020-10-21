@@ -1,0 +1,19 @@
+<h1>Rate my Cakes!</h1>
+<div class="top">
+  <div class="cakeform">
+    <h3>Submit your Cake to be rated.</h3>
+    <form (submit)='onSubmit()'>
+        <label for="baker">Baker:</label>
+        <input type="text" name='baker' [(ngModel)]='cakeform.baker'>
+        <label for="imgtag">Image HTML:</label>
+        <input type="text" name='imgtag'[(ngModel)]='cakeform.imgtag'>
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+    
+      <app-submit-cake [cakes]='cakes'></app-submit-cake>
+      
+
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+<div class="rate">
+    <table>
+        <tr *ngFor='let cake of cakes'>
+            <td>{{cake.baker}}</td>
+            <td><img (click)='showInfo(cake._id)' src="{{cake.imgtag}}"></td>
+            <button (click)='Delete(cake._id)'>Delete</button>
+            <app-reviews [cakes]='cake._id'></app-reviews>
+        </tr>
+    </table>
+</div>
+<app-show-cake *ngIf='singleCake' [cakeToShow]='singleCake'></app-show-cake>

@@ -1,0 +1,8 @@
+<h3>{{cakeToShow.baker}}</h3>
+<img src="{{cakeToShow.imgtag}}">
+
+<div *ngFor = 'let cakes of cakeToShow.reviews'>
+    <p> Rating : {{cakes.rating}}</p>
+    <p>Comment : {{cakes.comment}}</p>
+</div>
+
