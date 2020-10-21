@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-family:  'Arial Narrow', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    text-align: center;
+    font-family:  sans-serif;
+    
+}
+.homeB{
+    
+    border: solid blue 6px;
+    border-spacing: 6px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+.centerthisbutton{
+    display: flex;
+    justify-content: center;
+}
+.containerA{
+    border: solid orange 6px;
+    border-spacing: 2px;
+    border-radius: 12px;
+}
+.purp{
+    color: whitesmoke;
+    background-color: purple;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+}
+.green{
+    color: whitesmoke;
+    background-color: green;
+    border-radius: 50%;
+}
