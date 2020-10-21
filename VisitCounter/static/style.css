@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Time to fill out a Form!</h1>
+<div class=form>
+    <form action="/add_results" method="POST" name="form1" id="form1">
+    <label for="name">Your Name:   </label>
+    <input type="text" name="name" id=""><br>
+    <label for="dojo">Dojo Location:   </label>
+    <select name="dojo" id="">
+        <option value="Dallas">Dallas</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Washington">Washington</option>
+        <option value="Seattle">Seattle</option>
+    </select><br>
+    <label for="lang">Coding Language:   </label>
+    <select name="lang" id="">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="Ruby">Ruby</option>
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+    </select><br>
+    <label for="comment">Comments:   </label>
+    <textarea name="comment">Enter text here...</textarea><br>
+    </form>
+    <button type="submit" form="form1" value="Submit">Submit</button>
+</div>
+</body>
+</html>

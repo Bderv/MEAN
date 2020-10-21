@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% for (var cat of cats) { %>
+        <h1>This is a page dedicated to <%= cat.name %></h1>
+        <p>Age : <%= cat.age %></p>
+        <p>Diet : <%= cat.diet %></p>
+        <p>Location : <%= cat.location %></p>
+        <% } %>
+    <h1></h1>
+</body>
+</html>
