@@ -1,0 +1,87 @@
+.top{display: flex;
+    justify-content: space-between;}
+.subjects{
+    display: flex;
+    justify-content: space-evenly;
+}
+.questions{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    background-color: lightyellow;
+    padding: 30px;
+}
+body{
+    font-family:sans-serif ;
+}
+p{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#quone{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#qutwo{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#quthree{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#qufour{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#qufive{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#qusix{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#quseven{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#queight{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}
+#qunine{
+    background-color: lightskyblue;
+    padding: 100px;
+    border-radius: 30px;
+    border-color: lightslategray;
+    border-style: solid;
+}

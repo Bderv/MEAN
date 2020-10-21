@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <a href="file:///Users/bubbareppas/Documents/CodingDojo/MEAN/day2assignments/trivia/index.html">Press here to start over</a>
+            <h1>Trivia Night</h1>
+            <h1>300 points</h1>
+        </div>
+        <div class="subjects">
+            <h3>Warhammer Fantasy</h3>
+            <h3>Games Workshop</h3>
+            <h3>Warhammer 40,000</h3>
+        </div>
+        <div class="questions">
+            <div class="column">
+                <p id="qone">100</p>
+                <form id="quone" method="get">
+                <label for="quone">Which of the following is not an Army?</label><br><br>
+                    <input type="radio" id="Ogres" name="army" value="Ogres">
+                    <label for="Ogres">Ogre Kingdoms</label>
+                    <input type="radio" id="Orcs" name="army" value="Orcs">
+                    <label for="Orcs">Orcs and Goblins</label><br>
+                    <input type="radio" id="HE" name="army" value="HE">
+                    <label for="HE">High Elves</label>
+                    <input type="radio" id="Jacksons" name="army" value="Jacksons">
+                    <label for="Jacksons">Jacksons</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="qtwo">300</p>
+                <form id="qutwo" method="get">
+                <label for="qutwo">What is the name of the infamous dwarven brewery?</label><br><br>
+                    <input type="radio" id="Mcfadden" name="brew" value="Mcfadden">
+                    <label for="Mcfadden">Marvelous McFaddens</label>
+                    <input type="radio" id="Pony" name="brew" value="Pony">
+                    <label for="Pony">The Prancing Pony</label><br>
+                    <input type="radio" id="BB" name="brew" value="BB">
+                    <label for="BB">Bugman's Brewery</label>
+                    <input type="radio" id="Kazak" name="brew" value="Kazak">
+                    <label for="Kazak">Kazakthule's Cask and Bar</label><br><br>
+                    <input type="submit" value="Submit">
+                    </form>
+                <p id="qthree">500</p>
+                <form id="quthree" method="get">
+                <label for="quthree">Who wrote the Vampire Counts Army Books?</label><br><br>
+                    <input type="radio" id="gav" name="author" value="gav">
+                    <label for="gav">Gav Thorpe</label>
+                    <input type="radio" id="Al" name="author" value="Al">
+                    <label for="Al">Allesio Cavatore</label><br>
+                    <input type="radio" id="jean" name="author" value="jean">
+                    <label for="jean">Jean Claude Van Damme</label>
+                    <input type="radio" id="nick" name="author" value="nick">
+                    <label for="nick">Nick Horth</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="column">
+                <p id="qfour">100</p>
+                <form id="qufour" method="get">
+                <label for="qufour">Which of the following is the sport themed tabletop game made by GW?</label><br><br>
+                    <input type="radio" id="blood" name="football" value="blood">
+                    <label for="blood">Blood Bowl</label>
+                    <input type="radio" id="kick" name="football" value="kick">
+                    <label for="kick">Kick the Hobbit</label><br>
+                    <input type="radio" id="turbo" name="football" value="turbo">
+                    <label for="turbo">Tennis Turbo</label>
+                    <input type="radio" id="soccer" name="football" value="soccer">
+                    <label for="soccer">Soccer Shenanigans</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="qfive">300</p>
+                <form id="qufive" method="get">
+                <label for="qufive">In what country was Games Workshop founded?</label><br><br>
+                    <input type="radio" id="usa" name="country" value="usa">
+                    <label for="usa">United States</label>
+                    <input type="radio" id="France" name="country" value="France">
+                    <label for="France">France</label><br>
+                    <input type="radio" id="uk" name="country" value="uk">
+                    <label for="uk">United Kingdom</label>
+                    <input type="radio" id="scotland" name="country" value="scotland">
+                    <label for="scotland">Scotland</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="qsix">500</p>
+                <form id="qusix" method="get">
+                <label for="qusix">What is the name of the magazine published by GW?</label><br><br>
+                    <input type="radio" id="bs" name="magazine" value="bs">
+                    <label for="bs">Black Star</label>
+                    <input type="radio" id="wd" name="country" value="wd">
+                    <label for="wd">White Dwarf</label><br>
+                    <input type="radio" id="necro" name="country" value="necro">
+                    <label for="necro">United Kingdom</label>
+                    <input type="radio" id="scotland" name="country" value="scotland">
+                    <label for="scotland">Scotland</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="column">
+                <p id="qseven">100</p>
+                <form id="quseven" method="get">
+                <label for="quseven">What is the name of the first Chaos god?</label><br><br>
+                    <input type="radio" id="alex" name="chaos" value="alex">
+                    <label for="alex">Alex</label>
+                    <input type="radio" id="azaz" name="chaos" value="azaz">
+                    <label for="azaz">Azazel</label><br>
+                    <input type="radio" id="khorne" name="chaos" value="khorne">
+                    <label for="khorne">Khorne</label>
+                    <input type="radio" id="windows" name="chaos" value="windows">
+                    <label for="windows">Windows</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="qeight">300</p>
+                <form id="queight" method="get">
+                <label for="queight">The supreme leader of the Dark Angels chapter of space marines is known as?</label><br><br>
+                    <input type="radio" id="ryan" name="angels" value="ryan">
+                    <label for="ryan">Ryan</label>
+                    <input type="radio" id="gg" name="angels" value="gg">
+                    <label for="gg">Greasus Goldtooth</label><br>
+                    <input type="radio" id="tzeentch" name="angels" value="tzeentch">
+                    <label for="tzeentch">Tzeentch</label>
+                    <input type="radio" id="emperor" name="angels" value="emperor">
+                    <label for="emperor">Belial</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p id="qnine">500</p>
+                <form id="qunine" method="get">
+                <label for="qunine">Which of the following is a quote from the Lectitio Divinitatus?</label><br><br>
+                    <input type="radio" id="protects" name="lect" value="protects">
+                    <label for="protects">"The Emperor Protects"</label>
+                    <input type="radio" id="cannon" name="lect" value="cannon">
+                    <label for="cannon">"Everything can be solved with cannons"</label><br>
+                    <input type="radio" id="darkness" name="lect" value="darkness">
+                    <label for="darkness">"In the darkness bind them"</label>
+                    <input type="radio" id="imperium" name="lect" value="imperium">
+                    <label for="imperium">"The Imperium is built upon the blood of martyrs"</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
